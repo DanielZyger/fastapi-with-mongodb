@@ -1,6 +1,7 @@
 from pydantic import BaseModel
 
-class Todo(BaseModel):
+class Curso(BaseModel):
     name: str
     description: str
-    complete: bool
+    horas: int
+    turno: str
